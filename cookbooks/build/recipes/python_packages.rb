@@ -1,9 +1,7 @@
-python_runtime '3'
-
 python_package 'pytest' do
-    version 'latest'
+    python '/usr/local/bin/python3'
 end
 
 python_package 'py2app' do
-    version 'latest'
+    python '/usr/local/bin/python3'
 end
