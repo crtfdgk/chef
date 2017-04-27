@@ -3,7 +3,7 @@
 ###
 # Ignore Chef key files and secrets
 ###
-.chef/*.pem
+/.chef/*
 .chef/encrypted_data_bag_secret
 .DS_Store
 
@@ -17,12 +17,10 @@ boxes/*
 
 .autotest
 coverage
-.DS_Store
 pkg/*
 tags
 */tags
 *~
-.chef
 results
 
 # You should check in your Gemfile.lock in applications, and not in gems
@@ -52,7 +50,6 @@ doc/
 .kitchen/
 
 # Vagrant
-Vagrantfile
 .vagrant/
 
 # Kitchen Tests Local Mode Data
