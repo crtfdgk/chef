@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "10.10.3"
+  config.vm.box = "10.10.5"
   config.omnibus.chef_version = :latest
 
   config.vm.provision :chef_client do |chef|
