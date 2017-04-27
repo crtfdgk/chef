@@ -15,6 +15,6 @@
 #
 
 # Default runtimes, last one will be the default.
-python_runtime 'pypy' if node['poise-python']['install_pypy']
-python_runtime '3' if node['poise-python']['install_python3']
-python_runtime '2' if node['poise-python']['install_python2']
+python_runtime '3' do
+  version '3'
+end
