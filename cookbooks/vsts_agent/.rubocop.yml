@@ -1,0 +1,21 @@
+LineLength:
+  Max: 300
+
+Style/AlignParameters:
+  Exclude:
+    - '**/metadata.rb'
+
+Style/SpaceBeforeFirstArg:
+  Exclude:
+    - '**/metadata.rb'
+
+HashSyntax:
+  EnforcedStyle: hash_rockets
+  Exclude:
+    - '**/Berksfile'
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/AbcSize:
+  Max: 30
